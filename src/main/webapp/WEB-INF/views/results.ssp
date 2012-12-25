@@ -1,0 +1,10 @@
+<%@ val pairs: Map[String, String] %>
+
+<h2>Suggested pairs</h2>
+<ul>
+
+#for (p <- pairs)
+<li>${p._1} gives to ${p._2}</li>
+#end
+
+</ul>

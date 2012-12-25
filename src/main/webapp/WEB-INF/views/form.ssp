@@ -1,0 +1,6 @@
+<h2>Put your names, space separated in the box and hit submit</h2>
+<form method="POST" action="/">
+  <label for="names">Names</label>
+  <input name="names" />
+  <input type="submit" value="gogogogo"></input>
+</form>

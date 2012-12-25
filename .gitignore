@@ -1,0 +1,43 @@
+# IntelliJ
+.idea/
+.idea_modules/
+*.iws
+ide/idea/out
+
+# ensime
+.ensime
+.ensime_lucene/
+
+# TextMate
+*.tmproj
+
+# sbt
+target/
+artifacts/
+project/boot/
+lib_managed/
+
+# other stuff
+*.pyc
+.*.swp
+*.log
+*~
+*.class
+capenvs
+
+# mac
+.DS_Store
+
+# chef
+.rake_test_cache
+deploy/chef/*.rpm
+deploy/chef/*.out
+
+# Fake Service Logs
+
+# logs
+sid.pid
+
+# some other random files
+.directory
+.sass-cache

@@ -1,0 +1,9 @@
+<%@ var body: String %>
+<html>
+    <body>
+        <h1>Secret santa</h1>
+        <% render("form.ssp") %>
+        ${unescape(body)}
+    </body>
+</html>
+
