@@ -1,5 +1,7 @@
 # Secret Santa #
 
+Given a list of names it will randomly assign gift givers
+
 ## Build & Run ##
 
 ```sh
