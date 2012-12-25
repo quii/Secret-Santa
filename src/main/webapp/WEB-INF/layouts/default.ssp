@@ -2,6 +2,7 @@
 <html>
     <body>
         <h1>Secret santa</h1>
+        <img src="http://2.bp.blogspot.com/_9l9Vjw1UOvs/TQnsKSy5c8I/AAAAAAAACjM/iotBP9OgMpk/s1600/sov+santa.jpg"/>
         <% render("form.ssp") %>
         ${unescape(body)}
     </body>

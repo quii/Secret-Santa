@@ -6,20 +6,22 @@ import scala.util.Random
 
 class MyServlet extends ScalatraServlet with ScalateSupport {
 
-  get("/") {
+  before() {
     contentType = "text/html"
+  }
+
+  get("/") {
     ssp("/index")
   }
 
   post("/"){
-    contentType="text/html"
     val pairs = calculateIt(params.get("names").getOrElse("").split(' ').toSet)
     ssp("/results", "pairs" -> pairs)
   }
 
 
 
-  def calculateIt(people: Set[String]): Map[String, String] = {
+  private def calculateIt(people: Set[String]): Map[String, String] = {
 
     val pairs = scala.collection.mutable.Map[String, String]()
 
